@@ -16,3 +16,7 @@
 > 拼装模式 自动从当前路径下的gif目录下获取并反转拼接，生成指定名称的gif图片
 
 `python split.py g [newname]`
+
+> 快速模式 自动化完成拆解、拼装并清除中间产物
+
+`python split.py f [gifname] [newname]
