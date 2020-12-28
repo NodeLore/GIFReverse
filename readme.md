@@ -10,6 +10,9 @@
 
 ### Usage
 > 拆解模式 默认情况下会直接拆解到当前路径的gif目录下，若不存在则创建，可以自行修改
+
 `python split.py s [gifname]`
+
 > 拼装模式 自动从当前路径下的gif目录下获取并反转拼接，生成指定名称的gif图片
+
 `python split.py g [newname]`
