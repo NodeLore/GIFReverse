@@ -42,6 +42,8 @@ if __name__ == '__main__':
         if mode == 's':
             splitGIF(path)
         elif mode == 'g':
+            generateGIF(path, False)
+        elif mode == 'r':
             generateGIF(path)
         elif mode == 'f' and len(sys.argv) == 4:
             newPath = sys.argv[3]
@@ -53,4 +55,4 @@ if __name__ == '__main__':
     else:
         print('参数不正确')
         print('Usage: python split.py [command] [targetPath] ([newPath])')
-        print('\tcommand: s[拆分] g[合并] f[快速]')
+        print('\tcommand: s[拆分] g[合并] r[反转合并] f[快速反转合并]')
