@@ -19,4 +19,4 @@
 
 > 快速模式 自动化完成拆解、拼装并清除中间产物
 
-`python split.py f [gifname] [newname]
+`python split.py f [gifname] [newname]`
